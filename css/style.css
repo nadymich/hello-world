@@ -1,9 +1,6 @@
 html {
-  background: #ffc422;
-  border: 32px solid #ffffff;
+  background: #ffffff;
   box-sizing: border-box;
-  height: 100%;
-  width: 100%;
 }
 
 ul {
@@ -12,14 +9,24 @@ ul {
 }
 
 body {
-  width: 70%;
-  margin: 20px 15%;
-  min-width: 150px;
+  background: #ffc422;
+  border: 32px solid #ffffff;
 }
+
+.box {
+  width: 70%;
+  min-height: 75vh;
+  margin: 92px 15%;
+}
+
+/* header {
+  margin-top: 92px;
+} */
 
 header ul {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .header-item {
@@ -27,7 +34,7 @@ header ul {
 }
 
 .header-item a {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -43,15 +50,23 @@ header ul {
   align-items: baseline;
 }
 
+.content {
+  margin-top: 92px;
+  margin-bottom: 92px;
+}
+
 .content p {
   font-family: Inter;
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
+  font-family: "Montserrat", sans-serif;
+  color: #523127;
 }
 
 footer {
   margin-top: 92px;
+  /* margin-bottom: 92px; */
 }
 
 footer ul {
