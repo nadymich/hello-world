@@ -57,3 +57,9 @@ footer ul li a i {
   color: #523127;
   margin-right: 32px;
 }
+
+@media only screen and (max-width: 600px) {
+  .content p {
+    font-size: 30px;
+  }
+}
