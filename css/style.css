@@ -53,9 +53,12 @@ footer ul {
   flex-direction: row;
 }
 
+footer ul li {
+  margin-right: 32px;
+}
+
 footer ul li a i {
   color: #523127;
-  margin-right: 32px;
 }
 
 @media only screen and (max-width: 600px) {
