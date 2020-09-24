@@ -10,20 +10,23 @@ ul {
 
 body {
   background: #ffc422;
-  border: 32px solid #ffffff;
+  border: 5vh solid #ffffff;
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box {
   width: 70%;
-  min-height: 75vh;
-  margin: 92px 15%;
+  min-height: 90vh;
+  margin: 0 15%;
 }
 
 .content {
   margin-top: 92px;
   margin-bottom: 92px;
+  flex-grow: 1;
 }
 
 .content p {
@@ -33,7 +36,6 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #523127;
   display: block;
-  position: relative;
 }
 
 .content span {
