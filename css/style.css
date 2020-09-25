@@ -45,6 +45,11 @@ body {
   text-decoration-color: #9feeff;
 }
 
+.content a {
+  color: #523127;
+  text-decoration-line: underline;
+}
+
 footer {
   margin-top: 92px;
 }
