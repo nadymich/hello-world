@@ -22,8 +22,35 @@ body {
   min-height: 94vh;
   margin: 0 15%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+button {
+  margin-right: 24px;
+  border: none;
+  background-color: transparent;
+  padding: 8px;
+}
+
+.button-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .photo {
@@ -126,5 +153,14 @@ footer ul li a i {
 @media only screen and (max-width: 600px) {
   .content p {
     font-size: 30px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+  button {
+    margin-right: 0px;
+    font-size: 21px;
   }
 }
